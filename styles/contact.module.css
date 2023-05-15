@@ -1,0 +1,73 @@
+.maincontent {
+  padding: 5vw 4vw;
+}
+.contactbg {
+  background-image: url("../public/Images/contactbg.jpg");
+  width: 100%;
+  position: relative;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contactinfor {
+  /* padding: 0 8vw; */
+  margin-top: -40px;
+}
+.contactheading {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  font-weight: 600;
+  color: white;
+  padding-bottom: 8vw;
+}
+.card {
+  background: rgba(239, 55, 66, 1);
+  color: white;
+  font-size: 24px;
+  padding: 1.65rem;
+}
+/* .cardbody {
+  padding: 1.65rem;
+} */
+
+/* accordion part */
+.accordion {
+  /* max-width: 768px; */
+  /* background-color: #58595b; */
+  margin-top: 20px;
+}
+.accordionheading {
+  font-size: 32px;
+  font-weight: bolder;
+  color: #ef3742;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  /* margin: 40px 0px 20px; */
+}
+.accordionitem {
+  list-style: none;
+  margin-bottom: 3px;
+  color: white;
+  background: #6d6e71;
+}
+.accordiontoggle {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1em;
+}
+.accordiontoggle:hover {
+  background-color: #ef3742;
+}
+.accordiontoggle h5 {
+  color: white;
+  /* margin: 0; */
+}
+.accordioncontent {
+  background-color: RGB(220 221 222);
+  color: #58595b;
+  font-size: 18px;
+  padding: 1.25rem;
+}
